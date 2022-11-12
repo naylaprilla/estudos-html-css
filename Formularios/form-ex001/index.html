@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+</head>
+<body>
+    <h1><strong>Formulário de Cadastro de clientes</strong></h1>
+    <form method="get">
+        <p>Envie uma mensagem preenchendo o formulário abaixo:</p>
+        <label>Nome:</label><input type="text" name="Digite seu nome*"/><br>
+        <label>Telefone:</label><input type="tel" name="digite seu telefone"/><br>
+        <label>E-mail:</label><input type="email" name="digite seu e-mail"/><br>
+        <label>Deseja receber nossas novidades?</label>
+        <input type="radio" name="novidades" value="sim">sim
+        <input type="radio" name="novidades" value="nao">Não
+        <br>
+        <label>Mensagem:</label><textarea name="message"></textarea>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
