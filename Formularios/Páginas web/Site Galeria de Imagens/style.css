@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: linear-gradient(0deg, #ffcc33, #ff6699);
+}
+header{
+    background: #ff0066;
+    padding: 50px 9%;
+}
+h1{
+    color: aliceblue;
+}
+h2{
+    color: #ffff99
+    
+}
+.container{
+    border: 20px;
+
+}
