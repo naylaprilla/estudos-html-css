@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de idade dos alunos</title>
+    <style>
+        table {
+            -webkit-box-shadow: 4px 11px 12px -2px rgba(150,131,150,1);
+            -moz-box-shadow: 4px 11px 12px -2px rgba(150,131,150,1);
+            box-shadow: 4px 11px 12px -2px rgba(150,131,150,1);
+            border: solid 1px pink;
+        }
+        table thead th {
+            background-color: palevioletred;
+            color: white;
+        }
+        table tfoot td {
+            background-color: palevioletred;
+        }
+        table tbody tr:nth-child(even) td {
+            background-color: rgb(248, 212, 238);
+        }
+        table tbody tr:hover td {
+            background-color: rgb(231, 144, 205);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <table sumary="Esta tabela contém as informações dos alunos" width="250" align="center" cellspacing="0" cellpading="25">
+        <caption>Tabela de Idade dos Alunos</caption>
+        <thead>
+            <tr>
+                <th colspan="2">Minha tabela</th>
+            </tr>
+            <tr>
+                <th title="Nomes dos Alunos">Nome</th>
+                <th title="Idade dos Alunos">Idade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="01">
+                <td>Lola</td>
+                <td>44</td>
+            </tr>
+
+            <tr id="02">
+                <td>Jasper</td>
+                <td>41</td>
+            </tr>
+
+            <tr id="03">
+                <td>Mozy</td>
+                <td>32</td>
+            </tr>
+
+            <tr id="04">
+                <td>Lucy</td>
+                <td>25</td>
+            </tr>
+
+            <tr id="05">
+                <td>Bolinha</td>
+                <td>20</td>
+            </tr>
+
+            <tr id="06">
+                <td>Jake</td>
+                <td>19</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr> 
+                <td>Total</td>
+                <td>06</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
