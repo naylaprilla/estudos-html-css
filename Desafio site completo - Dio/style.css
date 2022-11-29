@@ -63,6 +63,10 @@ thead{
     background-color: #4bc8be;
     color: #fff;
 }
+iframe{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 .footer {
     background-color: #26948b;
     min-height: 150px;
