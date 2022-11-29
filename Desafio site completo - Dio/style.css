@@ -1,17 +1,21 @@
-html, body {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+html,body {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
 }
 body {
     background-color: #f1f1f1;
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
 
 .wrapper {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color:white;
 }
 .main {
     display: flex;
@@ -20,19 +24,37 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: #38afa8;
     padding: 10px 20px 0px;
+    color: white
 }
 .header {
-    background-color: rgb(5, 108, 108);
+    background-color: #97e1db;
     min-height: 150px;
+    color: white;
+    padding-left: 0;
+    display: flex;
+    justify-content: stretch;
+}
+.header .header_h1 {
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 50px;
+    font-weight: 500;
+    position: relative;  
 }
 .content {
     background-color: white;
     min-height: 300px;
     padding: 20px;
+    align-items: center;
+}
+.content h2 {
+    color: #225753;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: #26948b;
     min-height: 150px;
+    color: white;
+    padding: 25px;
 }
